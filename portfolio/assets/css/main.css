@@ -648,7 +648,7 @@ input, select, textarea {
 			display: flex;
 			flex-direction: row;
 			align-items: center;
-			justify-content: space-around;
+			justify-content: space-between;
 		}
 
 		.image.left, .image.right {
