@@ -644,6 +644,7 @@ input, select, textarea {
 			display: block;
 		}
 
+
     .git-work {
 			display: flex;
 			flex-direction: row;
@@ -1295,9 +1296,12 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 
-			#header .logo .icon:before {
+			#header .logo .img-log {
 				font-size: 2rem;
 			}
 
