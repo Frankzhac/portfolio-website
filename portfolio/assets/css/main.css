@@ -651,6 +651,14 @@ input, select, textarea {
 			justify-content: space-between;
 		}
 
+		.git-work p {
+			text-align: center;
+		}
+
+		.git-work img {
+			margin-top: 20px;
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
@@ -691,11 +699,18 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 768px) {
 
 			.image.main {
 				margin: 2rem 0;
 			}
+
+			.git-work {
+			 display: flex;
+			 flex-direction: column;
+			 align-items: center;
+			 justify-content: space-between;
+		 }
 
 		}
 
